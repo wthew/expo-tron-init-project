@@ -6,7 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
-    "start": "react-native start",
+    "start": "expo-electron start",
     "test": "jest",
     "build": "yarn electron-webpack && yarn electron-builder"
   },
@@ -41,7 +41,7 @@
     "preset": "react-native"
   },
   "private": true,
-  
+
   "build": {
     "extraMetadata": {
       "main": "main.js"
